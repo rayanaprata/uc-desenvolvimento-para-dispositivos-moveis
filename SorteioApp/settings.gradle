@@ -1,0 +1,2 @@
+rootProject.name = "SorteioApp"
+include ':app'
