@@ -60,24 +60,24 @@
         app:layout_constraintStart_toEndOf="@+id/textView3" />
 
     <EditText
-        android:id="@+id/edPeso"
+        android:id="@+id/edAltura"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="numberDecimal"
         android:textSize="16sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
-        app:layout_constraintStart_toStartOf="@+id/edAltura" />
+        app:layout_constraintStart_toStartOf="@+id/edPeso" />
 
     <EditText
-        android:id="@+id/edAltura"
+        android:id="@+id/edPeso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="28dp"
         android:ems="10"
         android:inputType="numberDecimal"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/edPeso"
+        app:layout_constraintBottom_toTopOf="@+id/edAltura"
         app:layout_constraintStart_toStartOf="@+id/edNome" />
 
     <Button
@@ -87,7 +87,7 @@
         android:layout_marginTop="49dp"
         android:onClick="calculaIMC"
         android:text="Calcular IMC"
-        app:layout_constraintStart_toStartOf="@+id/edPeso"
-        app:layout_constraintTop_toBottomOf="@+id/edPeso" />
+        app:layout_constraintStart_toStartOf="@+id/edAltura"
+        app:layout_constraintTop_toBottomOf="@+id/edAltura" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
