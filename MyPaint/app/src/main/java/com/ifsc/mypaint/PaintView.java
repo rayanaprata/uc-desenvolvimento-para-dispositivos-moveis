@@ -58,4 +58,16 @@ public class PaintView extends View {
         return true;
     }
 
+    public void changeColorBrushTool(int color) {
+        mPaint.setColor(color);
+
+        Path path = control.get(color);
+
+        if (path == null) {
+            control.put(color, new Path());
+        } else {
+            mPath = path;
+        }
+    }
+
 }
