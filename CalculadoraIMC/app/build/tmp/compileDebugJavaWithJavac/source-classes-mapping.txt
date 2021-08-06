@@ -1,0 +1,6 @@
+com/ifsc/calculadoraimc/BuildConfig.java
+ com.ifsc.calculadoraimc.BuildConfig
+com/ifsc/calculadoraimc/ImcActivity.java
+ com.ifsc.calculadoraimc.ImcActivity
+com/ifsc/calculadoraimc/MainActivity.java
+ com.ifsc.calculadoraimc.MainActivity
