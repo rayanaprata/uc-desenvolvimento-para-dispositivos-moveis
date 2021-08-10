@@ -1,0 +1,6 @@
+com/ifsc/mypaint/MainActivity.java
+ com.ifsc.mypaint.MainActivity
+com/ifsc/mypaint/BuildConfig.java
+ com.ifsc.mypaint.BuildConfig
+com/ifsc/mypaint/PaintView.java
+ com.ifsc.mypaint.PaintView
