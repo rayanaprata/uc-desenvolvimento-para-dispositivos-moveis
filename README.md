@@ -10,5 +10,5 @@ Repositório para armazenar as atividades da disciplina de Desenvolvimento para 
 - [x] Semana 3 - Listagens e Persistência de dados.
 - [x] Semana 4 - Desenvolvimento de aplicação
 - [x] Semana 5 - Multimédia
-- [ ] Semana 6 - Sensores
-- [ ] Semana 7 - Camerate e MySQL CRUD Trabalho.
+- [x] Semana 6 - Sensores
+- [x] Semana 7 - Camerate e MySQL CRUD Trabalho.
